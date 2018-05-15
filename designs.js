@@ -4,7 +4,7 @@ document.addEventListener('submit', function(event) {
   // cause the 'submit' to not reset page
   event.preventDefault();
   // When size is submitted by the user, call makeGrid()
-  makeGrid(height, width);
+  makeGrid(width, height);
 });
 
 function makeGrid(wid, hi) {
